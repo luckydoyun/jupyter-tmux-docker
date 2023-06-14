@@ -36,10 +36,16 @@ jupyter notebook password
 ### 6. Create tmux session
 ```
 tmux new -s <name>
+
+then, you learn escape key.
+Ctrl + b -> d
 ```
 
-### 7. Connect to tmux session
+### 7. Reconnect to tmux session
 ```
+you can check your tmux sessions.
+tmux ls
+
 tmux attach -t <name>
 ```
 
